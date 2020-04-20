@@ -73,7 +73,7 @@ public class MediaImpl implements Media, MultiTenantCloneable<MediaImpl> {
     protected String title;
     
     @Column(name = "ALT_TEXT")
-    @AdminPresentation(friendlyName = "MediaImpl_Media_Alt_Text", order = 3, gridOrder = 3, prominent = true)
+    @AdminPresentation(friendlyName = "MediaImpl_Media_Alt_Text", order = 3, gridOrder = 3, prominent = true, translatable = true)
     protected String altText;
     
     @Column(name = "TAGS")
